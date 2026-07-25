@@ -19,7 +19,7 @@ root_agent = LlmAgent(
     model = "gemini-2.5-flash",
     name = "product_extractor",
     description = "Extracts product information from user messages and returns structured JSON",
-    instructions = """You are a Product Information Extractor.
+    instruction = """You are a Product Information Extractor.
 
 Your task:
 - Read the user's message about a product
